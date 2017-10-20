@@ -16,6 +16,7 @@ class Artist: NSObject {
         var image : String
         var id : String
     
+    
     init(name: String, followers: Int, popularity: Int, id: String, image: String) {
             
             self.name = name
